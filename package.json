@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "MeemBot",
   "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
   "author": "BlackMeem",
   "dependencies": {
     "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "11.1.0"
+    "request": "2.81.0",
     "winston": "^3.2.1"
   }
 }
